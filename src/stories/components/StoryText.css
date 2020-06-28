@@ -1,0 +1,23 @@
+.text_container {
+  width: 70%;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.text {
+  padding: 30px;
+}
+
+span {
+  color: #292c34;
+}
+
+@media only screen and (max-width: 600px) {
+  .text_container {
+    width: 85%;
+  }
+  .text {
+    padding: 14px;
+  }
+}

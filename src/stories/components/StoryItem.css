@@ -1,0 +1,60 @@
+.story-item {
+  margin: 1rem 0;
+}
+
+.story-item__content {
+  padding: 0;
+}
+
+.story-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.story-item__image {
+  width: 100%;
+  height: 12.5rem;
+  margin-right: 1.5rem;
+}
+
+.story-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-item__info h2,
+.story-item__info h3,
+.story-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.story-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.story-item__modal-content {
+  padding: 0;
+}
+
+.story-item__modal-actions {
+  text-align: right;
+}
+
+.story-item__actions button,
+.story-item__actions a {
+  margin: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .story-item__image {
+    height: 20rem;
+  } 
+}
+
+.map-container {
+  height: 20rem;
+  width: 100%;
+}
